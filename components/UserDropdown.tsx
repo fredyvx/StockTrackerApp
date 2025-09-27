@@ -24,7 +24,7 @@ function Dropdown() {
 
   return (
     <DropdownMenu>
-      <DropdownMenuTrigger>
+      <DropdownMenuTrigger asChild>
         <Button
           variant="ghost"
           className="flex items-center gap-3 text-gray-4 hover:text-yellow-500"
